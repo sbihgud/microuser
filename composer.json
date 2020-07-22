@@ -13,7 +13,7 @@
     "autoload": {
         "psr-4": {
             "anonymity\\micro\\common\\": "src/micro/common",
-            "anonymity\\micro\\interfaces\\": "src/micro/interface"
+            "anonymity\\micro\\interfaces\\": "src/micro/interfaces"
         }
     }
 }
