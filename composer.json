@@ -1,0 +1,19 @@
+{
+    "name": "anonymity/microsevice-users",
+    "authors": [
+        {
+            "name": "xiaoping",
+            "email": "sbihgu618@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-swoole": ">=4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "anonymity\\micro\\common\\": "src/micro/common",
+            "anonymity\\micro\\interface\\": "src/micro/interface"
+        }
+    }
+}
