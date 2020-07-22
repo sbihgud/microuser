@@ -2,21 +2,21 @@
 
 namespace anonymity\micro\interfaces;
 
+use anonymity\micro\common\DTO\BcSubDTO;
+
 interface UserServiceInterFace
 {
     /**
      * 加
-     * @param int $a
-     * @param int $b
+     * @param BcSubDTO $subDTO
      * @return mixed
      */
-    public function bcAdds(int $a, int $b);
+    public function bcAdds(BcSubDTO $subDTO);
 
     /**
      * 减
-     * @param int $a
-     * @param int $b
+     * @param BcSubDTO $subDTO
      * @return mixed
      */
-    public function bcSubs(int $a, int $b);
+    public function bcSubs(BcSubDTO $subDTO);
 }
